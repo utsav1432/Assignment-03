@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 1em;
+  cursor: pointer;
+}
